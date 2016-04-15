@@ -27,7 +27,7 @@ void setup()
   }
   for(int i = 0; i < buttonNum; i++) // definir entrades
   {
-    pinMode(buttonPin[i], OUTPUT);
+    pinMode(buttonPin[i], INPUT);
   }
   for(int j = 0; j < ledNum ; j++)  // definir estat inicals sortides, mostren número 0
   { 
